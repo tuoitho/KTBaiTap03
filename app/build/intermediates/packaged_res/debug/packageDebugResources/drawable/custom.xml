@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+    <stroke android:color="#000000" android:width="2dp" /> <!-- Viền đen -->
+    <gradient android:startColor="#1CFF1C" android:endColor="#FFFF00" android:angle="270" /> <!-- Màu xanh đến màu xanh dương -->
+    <corners android:radius="110dp" /> <!-- Góc vuông -->
+    </shape>

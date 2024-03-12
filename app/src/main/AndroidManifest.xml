@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LDTTuan3"
+        tools:targetApi="31">
+        <activity
+            android:name=".AlertDialog_vidu"
+            android:exported="false" />
+        <activity
+            android:name=".DrawableShapeCustomButton_vidu"
+            android:exported="false" />
+        <activity
+            android:name=".Bai1"
+            android:exported="false" />
+        <activity
+            android:name=".seekbar_vidu"
+            android:exported="false" />
+        <activity
+            android:name=".progressbar_vidu"
+            android:exported="false" />
+        <activity
+            android:name=".checkbox_vidu"
+            android:exported="false" />
+        <activity
+            android:name=".radiobutton_vidu"
+            android:exported="false" />
+        <activity
+            android:name=".random_background"
+            android:exported="false" />
+        <activity
+            android:name=".switch_vidu"
+            android:exported="false" />
+        <activity
+            android:name=".image_button"
+            android:exported="false" />
+        <activity
+            android:name=".backgroundlayout_vd"
+            android:exported="false" />
+        <activity
+            android:name=".imageview_vidu"
+            android:exported="false" />
+        <activity
+            android:name=".menu_vidu"
+            android:exported="false" />
+        <activity
+            android:name=".Bai2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
